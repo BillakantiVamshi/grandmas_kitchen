@@ -27,7 +27,15 @@ SECRET_KEY = 'django-insecure--%$u)*$=itqvwzbks9q)j^olrp#u1#gzzvb4wwj672=(6y6vjg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'grandmas-kitchen.onrender.com'
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://grandmas-kitchen.onrender.com',
+]
 
 
 # Application definition
