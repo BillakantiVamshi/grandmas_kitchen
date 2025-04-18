@@ -1,18 +1,18 @@
+# create_admin.py
+
 import os
 import django
-from django.contrib.auth import get_user_model
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'grandmas_kitchen.settings')  # replace this
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "grandmas_kitchen.settings")  # change 'your_project_name'
 django.setup()
 
-User = get_user_model()
+from django.contrib.auth.models import User
 
-username = "admin"
-email = "admin@example.com"
-password = "admin123"
+username = "Vamshi@admin"
+password = "rishi123@"
 
 if not User.objects.filter(username=username).exists():
-    User.objects.create_superuser(username=username, email=email, password=password)
-    print("✅ Superuser created.")
+    User.objects.create_superuser(username=username, email="", password=password)
+    print("Superuser created.")
 else:
-    print("⚠️ Superuser already exists.")
+    print("Superuser already exists.")
