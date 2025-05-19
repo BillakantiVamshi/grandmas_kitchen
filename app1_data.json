@@ -1,0 +1,859 @@
+[
+{
+  "model": "app1.account",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$4OkaOooBYX10iJV1n7l5bK$1kYXyy22rHy4Y7ntkhHzSZy9XSA68jHSY0G8dORbXX4=",
+    "last_login": "2025-04-09T11:49:30.329Z",
+    "is_superuser": true,
+    "username": "Vamshi",
+    "first_name": "",
+    "last_name": "",
+    "email": "vamshibillakanti84@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-04-01T17:05:10.640Z",
+    "phone": "",
+    "address": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "app1.account",
+  "pk": 16,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$NygPsrnyk53zOQpsWfpUeg$O8qyEaD5tKirpXIsAcYwxHnUo+WqSfYFIZ81WVjJ0mg=",
+    "last_login": "2025-04-11T07:16:02.295Z",
+    "is_superuser": false,
+    "username": "Shiva",
+    "first_name": "shiva",
+    "last_name": "palakurthi",
+    "email": "palakurthishiva38@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-04-10T07:48:58.088Z",
+    "phone": "9121825812",
+    "address": "amballa",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "app1.account",
+  "pk": 17,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$hyY0Vce8Rc3eLly4EOhfI7$g1jdDP5n/SZCt8I2jEEqWHL4Wwl6J7n6pzKAiXe7vfc=",
+    "last_login": "2025-04-12T12:01:46.650Z",
+    "is_superuser": false,
+    "username": "Rishi",
+    "first_name": "Reyanish",
+    "last_name": "lingampally",
+    "email": "ajayraopuskuri@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-04-12T11:58:19.698Z",
+    "phone": "7095264701",
+    "address": "Thimmapur",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "app1.account",
+  "pk": 18,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$gBMykl7pnmxqaArsm8HBoY$m6vID+o1KdyTQFIyZO8jb2vHq7tTSaGpASiab4GjmLU=",
+    "last_login": "2025-04-12T17:15:04.133Z",
+    "is_superuser": false,
+    "username": "vamshi",
+    "first_name": "Billakanti",
+    "last_name": "Vamshi",
+    "email": "vamshibillakanti11@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-04-12T17:10:20.576Z",
+    "phone": "7095264701",
+    "address": "Kishanpura",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 1,
+  "fields": {
+    "name": "Laddu",
+    "description": "Homemade laddu with delocious ghee.",
+    "price": "100.00",
+    "category": "Sweets",
+    "image": "product_images/gilabjam.jpg",
+    "stock": 10,
+    "pickle_type": null,
+    "sweet_type": "Sugar"
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 2,
+  "fields": {
+    "name": "Chicken pickel",
+    "description": "Homemade boneless chicken pickel",
+    "price": "500.00",
+    "category": "Pickles",
+    "image": "product_images/Chicken-Pickle.jpg",
+    "stock": 10,
+    "pickle_type": "nonveg",
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 3,
+  "fields": {
+    "name": "Mango pickel",
+    "description": "Homemade mango pickel with fresh mangoes",
+    "price": "200.00",
+    "category": "Pickles",
+    "image": "product_images/pickels_logo.webp",
+    "stock": 10,
+    "pickle_type": "veg",
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 4,
+  "fields": {
+    "name": "Chekodi",
+    "description": "Homemade chekodi with rice flour .",
+    "price": "150.00",
+    "category": "Snacks",
+    "image": "product_images/images.jpeg",
+    "stock": 10,
+    "pickle_type": null,
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 6,
+  "fields": {
+    "name": "Gyaralu",
+    "description": "Homemade Gyaralu with rice flour and  koriyandar in it",
+    "price": "200.00",
+    "category": "Snacks",
+    "image": "product_images/Gyaralu.jpg",
+    "stock": 10,
+    "pickle_type": null,
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 23,
+  "fields": {
+    "name": "balushahi",
+    "description": "tasty sweet",
+    "price": "157.00",
+    "category": "Sweets",
+    "image": "product_images/Balushahi.jpg",
+    "stock": 6,
+    "pickle_type": null,
+    "sweet_type": "Sugar"
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 24,
+  "fields": {
+    "name": "chum",
+    "description": "tasty sweet",
+    "price": "189.00",
+    "category": "Sweets",
+    "image": "product_images/chum-chum.webp",
+    "stock": 7,
+    "pickle_type": null,
+    "sweet_type": "Sugar"
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 25,
+  "fields": {
+    "name": "CreamyKheer",
+    "description": "tasty sweet",
+    "price": "156.00",
+    "category": "Sweets",
+    "image": "product_images/Creamy-Kheer-.jpg",
+    "stock": 6,
+    "pickle_type": null,
+    "sweet_type": "No-Sugar"
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 26,
+  "fields": {
+    "name": "gulab jamun",
+    "description": "tasty sweets",
+    "price": "178.00",
+    "category": "Sweets",
+    "image": "product_images/gulab-jamun.webp",
+    "stock": 6,
+    "pickle_type": null,
+    "sweet_type": "Sugar"
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 27,
+  "fields": {
+    "name": "kalakand",
+    "description": "tasty sweet",
+    "price": "178.00",
+    "category": "Sweets",
+    "image": "product_images/Kalakand.jpeg",
+    "stock": 6,
+    "pickle_type": null,
+    "sweet_type": "Sugar"
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 28,
+  "fields": {
+    "name": "Khaja",
+    "description": "tasty sweet",
+    "price": "178.00",
+    "category": "Sweets",
+    "image": "product_images/khaja-.jpg",
+    "stock": 7,
+    "pickle_type": null,
+    "sweet_type": "Sugar"
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 29,
+  "fields": {
+    "name": "khaman-dhokla",
+    "description": "tasty sweet",
+    "price": "134.00",
+    "category": "Sweets",
+    "image": "product_images/khaman-dhokla.jpg",
+    "stock": 8,
+    "pickle_type": null,
+    "sweet_type": "Sugar"
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 30,
+  "fields": {
+    "name": "Milk-Mysore-Pak",
+    "description": "tasty sweet",
+    "price": "167.00",
+    "category": "Sweets",
+    "image": "product_images/Milk-Mysore-Pak.webp",
+    "stock": 7,
+    "pickle_type": null,
+    "sweet_type": "No-Sugar"
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 31,
+  "fields": {
+    "name": "Motichoor-Ladoo",
+    "description": "tasty sweet",
+    "price": "187.00",
+    "category": "Sweets",
+    "image": "product_images/Motichoor-Ladoo.webp",
+    "stock": 8,
+    "pickle_type": null,
+    "sweet_type": "Sugar"
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 33,
+  "fields": {
+    "name": "peda",
+    "description": "tasty sweet",
+    "price": "145.00",
+    "category": "Sweets",
+    "image": "product_images/Peda_.jpg",
+    "stock": 6,
+    "pickle_type": null,
+    "sweet_type": "Sugar"
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 34,
+  "fields": {
+    "name": "rabi",
+    "description": "tasty sweet",
+    "price": "147.00",
+    "category": "Sweets",
+    "image": "product_images/rabri.jpg",
+    "stock": 7,
+    "pickle_type": null,
+    "sweet_type": "Sugar"
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 35,
+  "fields": {
+    "name": "rasmalai-recipe",
+    "description": "tasty sweet",
+    "price": "167.00",
+    "category": "Sweets",
+    "image": "product_images/rasmalai-recipe-.jpg",
+    "stock": 6,
+    "pickle_type": null,
+    "sweet_type": "Sugar"
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 36,
+  "fields": {
+    "name": "saffron-milk.cake",
+    "description": "tasty pickel",
+    "price": "145.00",
+    "category": "Sweets",
+    "image": "product_images/Saffron-Milk-Cake-1.webp",
+    "stock": 7,
+    "pickle_type": null,
+    "sweet_type": "Sugar"
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 37,
+  "fields": {
+    "name": "soan-papdi",
+    "description": "tasty sweet",
+    "price": "156.00",
+    "category": "Sweets",
+    "image": "product_images/soan-papdi.webp",
+    "stock": 8,
+    "pickle_type": null,
+    "sweet_type": "Sugar"
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 38,
+  "fields": {
+    "name": "Carrot-Halwa",
+    "description": "tasty and healthly fooditem",
+    "price": "167.00",
+    "category": "Sweets",
+    "image": "product_images/CarrotHalwa.webp",
+    "stock": 7,
+    "pickle_type": null,
+    "sweet_type": "No-Sugar"
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 39,
+  "fields": {
+    "name": "Bandhar ladoo",
+    "description": "tasty and sweety",
+    "price": "145.00",
+    "category": "Sweets",
+    "image": "product_images/bandar_laddu.png",
+    "stock": 8,
+    "pickle_type": null,
+    "sweet_type": "No-Sugar"
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 68,
+  "fields": {
+    "name": "Chicken Pickel",
+    "description": "Homemade chicken pickle with tasty spices 1kg.",
+    "price": "800.00",
+    "category": "Pickles",
+    "image": "product_images/chicken_pickel.jpg",
+    "stock": 20,
+    "pickle_type": "nonveg",
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 69,
+  "fields": {
+    "name": "Mutton Pickel",
+    "description": "Homemade mutton pickle ,where tender meets fiery spices, a pickel born of pure flavor. 1kg",
+    "price": "1400.00",
+    "category": "Pickles",
+    "image": "product_images/mutton_pickel.jpg",
+    "stock": 20,
+    "pickle_type": "nonveg",
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 70,
+  "fields": {
+    "name": "Chitti Royalu Pickle",
+    "description": "Homemade chitti royalu pickle with extra spice to your flavor.1kg",
+    "price": "1000.00",
+    "category": "Pickles",
+    "image": "product_images/chitti_royalu.jpg",
+    "stock": 20,
+    "pickle_type": "nonveg",
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 71,
+  "fields": {
+    "name": "Chicken Boneless Pickle",
+    "description": "Home made boneless chicken pickle,boneless bliss in every  bite.1kg",
+    "price": "900.00",
+    "category": "Pickles",
+    "image": "product_images/chicken_boneless.jpg",
+    "stock": 20,
+    "pickle_type": "nonveg",
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 72,
+  "fields": {
+    "name": "Egg Pickle",
+    "description": "Experience the unexpected delight of our savory and slightly spicy homemade egg pickle.1kg",
+    "price": "350.00",
+    "category": "Pickles",
+    "image": "product_images/egg_pickel.jpg",
+    "stock": 20,
+    "pickle_type": "nonveg",
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 73,
+  "fields": {
+    "name": "Crab Pickle",
+    "description": "A taste of the sea, pickled to perfection with a tangy and fiery kick of our homemade Crab pickle.1kg",
+    "price": "2000.00",
+    "category": "Pickles",
+    "image": "product_images/crab_pickel.jpg",
+    "stock": 10,
+    "pickle_type": "nonveg",
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 74,
+  "fields": {
+    "name": "Fish Pickle",
+    "description": "Spice of the sea, pickled perfectly.Taste our homemade fish pickle.1kg",
+    "price": "700.00",
+    "category": "Pickles",
+    "image": "product_images/fish_pickel_xtcTaPy.jpg",
+    "stock": 10,
+    "pickle_type": "nonveg",
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 75,
+  "fields": {
+    "name": "Gongura Chicken",
+    "description": "A taste of Telangana in every spoonful.Our authentic homemade gongura chicken pickle.1kg",
+    "price": "850.00",
+    "category": "Pickles",
+    "image": "product_images/Gongura_chicken.jpg",
+    "stock": 10,
+    "pickle_type": "nonveg",
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 76,
+  "fields": {
+    "name": "Apollo Fish Pickle",
+    "description": "A catch of fish with our authentic homemade flavor.1kg",
+    "price": "600.00",
+    "category": "Pickles",
+    "image": "product_images/IMG-20250406-WA0063.jpg",
+    "stock": 10,
+    "pickle_type": "nonveg",
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 77,
+  "fields": {
+    "name": "Prawns Pickle",
+    "description": "A sea prawn into your plate with our homemade prawns pickle.1kg",
+    "price": "1050.00",
+    "category": "Pickles",
+    "image": "product_images/Royala_pickel.jpg",
+    "stock": 10,
+    "pickle_type": "nonveg",
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 78,
+  "fields": {
+    "name": "Mango Pickle",
+    "description": "Spice up your life, one bite at a time with our homemade mango pickle.1kg",
+    "price": "350.00",
+    "category": "Pickles",
+    "image": "product_images/mango.png",
+    "stock": 10,
+    "pickle_type": "veg",
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 79,
+  "fields": {
+    "name": "Tamarind Pickle",
+    "description": "Experience the vibrant and complex flavors of tamarind with our homemade pickle.1kg",
+    "price": "300.00",
+    "category": "Pickles",
+    "image": "product_images/tamarind_.png",
+    "stock": 10,
+    "pickle_type": "veg",
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 80,
+  "fields": {
+    "name": "Allam Pickle",
+    "description": "Taste the unique flavor of  our homemade Alam pickle. 1kg",
+    "price": "250.00",
+    "category": "Pickles",
+    "image": "product_images/Allam_Ginger.png",
+    "stock": 10,
+    "pickle_type": "veg",
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 81,
+  "fields": {
+    "name": "Red Mirchi Pickle",
+    "description": "Homemade red mirchi pickle with our Telangana style of flavor .1kg",
+    "price": "200.00",
+    "category": "Pickles",
+    "image": "product_images/red_mirchi.jpg",
+    "stock": 10,
+    "pickle_type": "veg",
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 82,
+  "fields": {
+    "name": "Tomato Pickle",
+    "description": "Homemade delicious tamato pickle with fresh ripened tomatos.1kg",
+    "price": "250.00",
+    "category": "Pickles",
+    "image": "product_images/tomato_.png",
+    "stock": 10,
+    "pickle_type": "veg",
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 83,
+  "fields": {
+    "name": "Amla Pickle",
+    "description": "Homemade amla pickle with fresh and hygenic process.1kg",
+    "price": "210.00",
+    "category": "Pickles",
+    "image": "product_images/Usirikaya.png",
+    "stock": 10,
+    "pickle_type": "veg",
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 84,
+  "fields": {
+    "name": "Garic Pickle",
+    "description": "Homemade garlic pickle with a flavor of the ancient taste.1kg",
+    "price": "230.00",
+    "category": "Pickles",
+    "image": "product_images/garlic.jpg",
+    "stock": 10,
+    "pickle_type": "veg",
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 85,
+  "fields": {
+    "name": "Lemon Pickle",
+    "description": "Taste the flavor of lemon with our homemade spices.1kg",
+    "price": "200.00",
+    "category": "Pickles",
+    "image": "product_images/Nimmakaya.png",
+    "stock": 10,
+    "pickle_type": "veg",
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 86,
+  "fields": {
+    "name": "Karivepaku Pickle",
+    "description": "A unique taste of karivepaku with a combination of our spices.1kg",
+    "price": "180.00",
+    "category": "Pickles",
+    "image": "product_images/Karivepaku_.png",
+    "stock": 10,
+    "pickle_type": "veg",
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 87,
+  "fields": {
+    "name": "Gongura Pickle",
+    "description": "A fresh leafy flavor with our homemade style in your hands.1kg",
+    "price": "220.00",
+    "category": "Pickles",
+    "image": "product_images/Gongura.png",
+    "stock": 10,
+    "pickle_type": "veg",
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 88,
+  "fields": {
+    "name": "Pandu Gongura Pickle",
+    "description": "A rich flavor of gongura into your dore step with us.1kg",
+    "price": "230.00",
+    "category": "Pickles",
+    "image": "product_images/Pandu_Gongura.png",
+    "stock": 10,
+    "pickle_type": "veg",
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 89,
+  "fields": {
+    "name": "Chakodi",
+    "description": "Homemade chakodi with a authentic flavor.1kg",
+    "price": "100.00",
+    "category": "Snacks",
+    "image": "product_images/Chakodi__.png",
+    "stock": 10,
+    "pickle_type": null,
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 90,
+  "fields": {
+    "name": "Chekkalu",
+    "description": "Homemade chekkalu with andhra style.1kg",
+    "price": "150.00",
+    "category": "Snacks",
+    "image": "product_images/chekkalu_.png",
+    "stock": 20,
+    "pickle_type": null,
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 91,
+  "fields": {
+    "name": "Jantikalu",
+    "description": "Homemade janthikalu in telangana style.1kg",
+    "price": "110.00",
+    "category": "Snacks",
+    "image": "product_images/Jantikalu_.png",
+    "stock": 10,
+    "pickle_type": null,
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 92,
+  "fields": {
+    "name": "Bobbatlu",
+    "description": "Aunique bobbatlu at your hands with us.1kg",
+    "price": "150.00",
+    "category": "Snacks",
+    "image": "product_images/Bobbatlu_.png",
+    "stock": 10,
+    "pickle_type": null,
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 93,
+  "fields": {
+    "name": "Khara Boondi",
+    "description": "Homemade khara boondhi with a telangana flavor",
+    "price": "200.00",
+    "category": "Snacks",
+    "image": "product_images/Khara_Boondi.png",
+    "stock": 20,
+    "pickle_type": null,
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 94,
+  "fields": {
+    "name": "Penuts",
+    "description": "Homemade fried masala penuts.1kg",
+    "price": "150.00",
+    "category": "Snacks",
+    "image": "product_images/penuts.png",
+    "stock": 10,
+    "pickle_type": null,
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 95,
+  "fields": {
+    "name": "Corn Chips",
+    "description": "Homemade corn chips of 1kg with pre flavor",
+    "price": "180.00",
+    "category": "Snacks",
+    "image": "product_images/corn_chips.png",
+    "stock": 10,
+    "pickle_type": null,
+    "sweet_type": null
+  }
+},
+{
+  "model": "app1.product",
+  "pk": 96,
+  "fields": {
+    "name": "Kajjikaylu",
+    "description": "Homemade kajjikayalu with sweet flavor in telangana style",
+    "price": "200.00",
+    "category": "Sweets",
+    "image": "product_images/Kajjikayalu_.png",
+    "stock": 10,
+    "pickle_type": null,
+    "sweet_type": "No-Sugar"
+  }
+},
+{
+  "model": "app1.wishlist",
+  "pk": 36,
+  "fields": {
+    "user": 17,
+    "product": 78,
+    "added_at": "2025-04-12T15:53:46.380Z"
+  }
+},
+{
+  "model": "app1.address",
+  "pk": 9,
+  "fields": {
+    "user": 5,
+    "full_name": "Billakanti Vamshi",
+    "street": "Kishanpura",
+    "city": "Warangal",
+    "state": "Telangana",
+    "postal_code": "506001",
+    "country": "India",
+    "phone": "7095264701"
+  }
+},
+{
+  "model": "app1.profile",
+  "pk": 6,
+  "fields": {
+    "user": 16,
+    "profile_image": "profile_pics/user_16/WhatsApp_Image_2025-04-06_at_14.52.07_d68b8727.jpg"
+  }
+},
+{
+  "model": "app1.profile",
+  "pk": 7,
+  "fields": {
+    "user": 17,
+    "profile_image": ""
+  }
+},
+{
+  "model": "app1.profile",
+  "pk": 8,
+  "fields": {
+    "user": 18,
+    "profile_image": ""
+  }
+},
+{
+  "model": "app1.passwordresetotp",
+  "pk": 10,
+  "fields": {
+    "user": 17,
+    "otp_code": "153649",
+    "created_at": "2025-04-12T11:58:58.685Z",
+    "is_verified": false
+  }
+},
+{
+  "model": "app1.passwordresetotp",
+  "pk": 11,
+  "fields": {
+    "user": 18,
+    "otp_code": "695338",
+    "created_at": "2025-04-12T17:13:07.972Z",
+    "is_verified": false
+  }
+},
+{
+  "model": "app1.passwordresetotp",
+  "pk": 12,
+  "fields": {
+    "user": 18,
+    "otp_code": "423776",
+    "created_at": "2025-04-12T17:13:53.926Z",
+    "is_verified": true
+  }
+}
+]

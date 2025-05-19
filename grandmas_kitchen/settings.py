@@ -95,7 +95,7 @@ DATABASES = {
     }
 }
 
-DATABASES['default'] = dj_database_url.parse("postgresql://grandmas_kitchen_db_user:D1sTHYAkXlOEq2hunxKTLe7zP9AyYcQn@dpg-cvvp013e5dus73cgpvmg-a.oregon-postgres.render.com/grandmas_kitchen_db")
+DATABASES['default'] = dj_database_url.parse("postgresql://grandmas_kitchen_db_ny2u_user:aW9en8qvzwGIznmTlIomJKzVjKk1qRtT@dpg-d0lggj56ubrc73c2mvn0-a.oregon-postgres.render.com/grandmas_kitchen_db_ny2u")
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
