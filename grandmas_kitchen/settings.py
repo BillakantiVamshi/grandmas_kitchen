@@ -20,9 +20,6 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 STATIC_DIR = os.path.join(BASE_DIR, 'static')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
-
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure--%$u)*$=itqvwzbks9q)j^olrp#u1#gzzvb4wwj672=(6y6vjg'
 
@@ -95,7 +92,7 @@ DATABASES = {
     }
 }
 
-DATABASES['default'] = dj_database_url.parse("postgresql://grandmas_kitchen_db_ny2u_user:aW9en8qvzwGIznmTlIomJKzVjKk1qRtT@dpg-d0lggj56ubrc73c2mvn0-a.oregon-postgres.render.com/grandmas_kitchen_db_ny2u")
+DATABASES['default'] = dj_database_url.parse("postgresql://grandmas_kitchen_db_hzi2_user:6DjmhZ9Sx8zF6f5jJdA2uUlw2rpArnlU@dpg-d1uei7emcj7s73eeq2ng-a.oregon-postgres.render.com/grandmas_kitchen_db_hzi2")
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
